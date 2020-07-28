@@ -1,0 +1,21 @@
+<h1>Employee Details!!</h1>
+
+<% data["data"].forEach(function(emp){ %>
+    <h2>Name: <%= emp["employee_name"] %></h2>
+    
+        <ul>
+            
+            <li>
+                <strong>Salary: </strong><%= emp["employee_salary"] %>
+            </li>
+            <li>
+                <strong>Age: </strong><%= emp["employee_age"] %>
+            </li>
+            
+        </ul>
+<%})%>
+
+    
+
+
+
