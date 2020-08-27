@@ -1,0 +1,19 @@
+<table class="table table-inverse">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <% for(var i=0; i < emplist.length; i++) { %>
+      <tr>
+        <td><%= emplist[i].name %></td>
+        <td><%= emplist[i].email %></td>
+        <td><%= emplist[i].username %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
